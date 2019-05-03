@@ -1,4 +1,6 @@
-# https://github.com/datasciencedojo/DataMiningFEC/blob/master/1%20itcont%20TXT%20to%20CSV.R
+### NOTE: COMBINED HUGE FILE BELOW NOT INCLUDED IN REPO
+# HOWEVER IF YOU WANT TO START AT SCRIPT 01, THE BIG CONTRIBS FILE CAN BE DOWNLOADED HERE:
+# https://www.dropbox.com/s/cxfanwzurj1qvzf/ind_2008_thru_2018_all.feather?dl=1
 
 
 library(data.table)
@@ -96,6 +98,8 @@ options(scipen = 999)
 
 ################
 
+
+### SEE ABOVE FOR DOWNLOAD LOCATION OF THIS FILE
 
 pol_combined_all <- read_feather("../fec_raw_ind_files/ind_2008_thru_2018_all.feather")
 
