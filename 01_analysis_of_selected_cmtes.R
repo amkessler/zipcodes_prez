@@ -5,13 +5,8 @@ library(lubridate)
 library(writexl)
 options(scipen = 999)
 
-# PICK ONE:
-
 # 1 - load combined filtered ind historical records 2008-2018 from saved file:
 pol_filtered <- read_feather("processed_data/pol_filtered.feather")
-
-# 2- alternatively, load from 2020 cycle presidential filings data:
-
 
 
 
@@ -35,9 +30,6 @@ glimpse(pol_filtered)
 
 #bring in lookup table of committee names to add
 prezcmtes <- read_csv("processed_data/prezcmtes.csv")
-
-# OR -- bring in lookup table of 2020 presidential committees:
-
 
 
 #join main data table to lookup to add cmte names
