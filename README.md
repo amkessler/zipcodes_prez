@@ -1,2 +1,2 @@
 # zipcodes_prez
-analyzing fec data of individual contributors, adjusted gross income
+analyzing 10 years of fec individual contribution transactions, adjusted gross income zips
